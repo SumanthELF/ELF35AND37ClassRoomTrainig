@@ -1,0 +1,5 @@
+Sleep(1000)
+Send("D:\Sumanth ELF\Ref Docs Manjunath\Notes.pdf")
+Send("{TAB}")
+Send("{TAB}")
+Send("{ENTER}")

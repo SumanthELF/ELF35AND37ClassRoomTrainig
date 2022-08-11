@@ -1,0 +1,22 @@
+package pomRepository;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ElectronicsPage {
+
+	public ElectronicsPage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(partialLinkText = "Cell phones") 
+	private WebElement cellPhonesLink;
+
+	public WebElement getCellPhonesLink() {
+		return cellPhonesLink;
+	}
+	
+	
+}

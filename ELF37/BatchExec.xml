@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="15" name="chromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="advancedConcepts.TC_SR_User_010"/>
+      <class name="advancedConcepts.TC_SR_User_009"/>
+      <class name="advancedConcepts.TC_SR_User_008"/>
+      <class name="advancedConcepts.TC_SR_User_007"/>
+      <class name="advancedConcepts.TC_SR_User_006"/>
+      <class name="advancedConcepts.TC_SR_User_005"/>
+      <class name="advancedConcepts.TC_SR_User_004"/>
+      <class name="advancedConcepts.TC_SR_User_003"/>
+      <class name="advancedConcepts.TC_SR_User_002"/>
+      <class name="advancedConcepts.TC_SR_User_001"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="15" name="firefoxTest">
+   <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="advancedConcepts.TC_SR_User_010"/>
+      <class name="advancedConcepts.TC_SR_User_009"/>
+      <class name="advancedConcepts.TC_SR_User_008"/>
+      <class name="advancedConcepts.TC_SR_User_007"/>
+      <class name="advancedConcepts.TC_SR_User_006"/>
+      <class name="advancedConcepts.TC_SR_User_005"/>
+      <class name="advancedConcepts.TC_SR_User_004"/>
+      <class name="advancedConcepts.TC_SR_User_003"/>
+      <class name="advancedConcepts.TC_SR_User_002"/>
+      <class name="advancedConcepts.TC_SR_User_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
